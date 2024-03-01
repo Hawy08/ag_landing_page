@@ -15,7 +15,7 @@ function Hero() {
               <p className="text-3xl font-bold py-12 w-2/3 at-item">
                 We are Naturing Answers to your Agricultural Questions
               </p>
-              <p className="py-8 tracking-wide w-2/3 at-item">
+              <p className="py-8 tracking-wide w-2/3 at-item text-sm">
                 Giving farmers insights through well researched articles,
                 answering their questions real-time and bridging the knowledge
                 gap.{" "}
