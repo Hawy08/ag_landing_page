@@ -4,8 +4,6 @@ import Data from '../Semicomponents/featureData'
 
 
 function Uniqueness() {
-    console.log(Data)
-
   return (
     <div className="my-8 py-8 w-4/5 flex justify-center flex-col items-center">
       <div className="text-center w-1/2">
@@ -15,7 +13,7 @@ function Uniqueness() {
           joining Agroghala.
         </p>
       </div>
-      <div className="flex gap-8  w-full my-12">
+      <div className="flex gap-8 w-full my-12">
         {Data.map((item) => (
           <div key={item.index} className="w-full">
             <Oppcard
@@ -30,5 +28,4 @@ function Uniqueness() {
     </div>
   );
 }
-
 export default Uniqueness

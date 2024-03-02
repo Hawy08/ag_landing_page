@@ -51,3 +51,8 @@ body {
 		}
 	}
  
+
+	.linear_g{
+		background: rgb(26,26,26);
+		background: linear-gradient(228deg, rgba(26,26,26,0.25271358543417366) 6%, rgba(0,0,0,0.9810049019607843) 100%);
+	}
