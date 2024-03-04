@@ -5,15 +5,15 @@ import Data from '../Semicomponents/featureData'
 
 function Uniqueness() {
   return (
-    <div className="my-8 py-8 w-4/5 flex justify-center flex-col items-center">
-      <div className="text-center w-1/2">
-        <p className="font-bold text-3xl my-2">New Opportunities</p>
+    <div className="flex flex-col items-center justify-center py-8 my-8 md:w-4/5">
+      <div className="w-1/2 text-center">
+        <p className="my-2 text-3xl font-bold">New Opportunities</p>
         <p className="text-sm tracking-wide">
           These are the diffrent ways that you can benefit as a farmer by
           joining Agroghala.
         </p>
       </div>
-      <div className="flex gap-8 w-full my-12">
+      <div className="w-full gap-8 my-12 md:flex">
         {Data.map((item) => (
           <div key={item.index} className="w-full">
             <Oppcard
