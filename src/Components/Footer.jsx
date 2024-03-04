@@ -5,9 +5,9 @@ import Copyright from '../Semicomponents/Copyright';
 function Footer() {
   return (
     <div className="flex justify-center w-full mt-4 bg-[#EDEADE] p-8 py-20 flex-col">
-      <div className='bg-yellow-400'>
+      <div className=''>
         
-      <div className="grid w-4/5 grid-cols-4 ">
+      <div className="grid w-4/5 grid-cols-4 bg-red-400 ">
         <div className="flex flex-col gap-4 text-gray-500">
           <p className="text-lg font-semibold">About Us</p>
           <p>Team</p>
