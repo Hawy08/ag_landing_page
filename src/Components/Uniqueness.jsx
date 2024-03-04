@@ -1,10 +1,13 @@
 import React from 'react'
 import Oppcard from '../Semicomponents/Oppcard'
 import Data from '../Semicomponents/featureData'
+import { Element } from 'react-scroll';
 
 
 function Uniqueness() {
   return (
+    <Element className='flex justify-center w-full' name='section2'>
+      
     <div className="flex flex-col items-center justify-center py-8 my-8 md:w-4/5">
       <div className="w-1/2 text-center">
         <p className="my-2 text-3xl font-bold">New Opportunities</p>
@@ -26,6 +29,7 @@ function Uniqueness() {
         ))}
       </div>
     </div>
+    </Element>
   );
 }
 export default Uniqueness

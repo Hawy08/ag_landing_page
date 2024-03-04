@@ -1,8 +1,11 @@
 import React from 'react'
+import { Element } from "react-scroll";
 import BlogsFeaturesCard from '../Semicomponents/blogsFeatureCard'
 
 function BlogsFeatures() {
   return (
+    <Element name="section3" className='flex justify-center w-full'>
+      
     <div className="flex flex-col w-4/5 ">
         <div>
             <p className="text-3xl font-bold">Blogs features</p>
@@ -12,6 +15,7 @@ function BlogsFeatures() {
             <BlogsFeaturesCard/>
         </div>
     </div>
+    </Element>
   )
 }
 

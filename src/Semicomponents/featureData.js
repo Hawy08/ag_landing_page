@@ -5,15 +5,15 @@ import logo3 from "../assets/11384004.png";
 const Data = [
   {
     cardLogo: logo1,
-    uniqueFeature: "Information Tailored just for you",
+    uniqueFeature: "Information Tailored Just for You",
     description:
-      "Getting information that is specific to you and your fam condition is very important because it fits corecttly ",
+      "Receiving information that specifically addresses your farm’s unique conditions is crucial because it ensures a precise fit.",
   },
   {
     cardLogo: logo3,
-    uniqueFeature: "Timely Answers to your question",
+    uniqueFeature: "Timely Answers to Your Questions",
     description:
-      "Get timely answers to your farming and livestock keeping queries. Not just timely but also accurate and perfectly tailored for you.",
+      "Get prompt answers to your farming and livestock-related queries. These responses are not only timely but also accurate and customized to your specific needs.",
     style: {
       backgroundColor: "rgb(34 197 94)",
       color: "#ffff",
@@ -21,9 +21,9 @@ const Data = [
   },
   {
     cardLogo: logo2,
-    uniqueFeature: "Connect to other Farmers",
+    uniqueFeature: "Connect to Other Farmers",
     description:
-      "Getting to hear from other farmers help to enrich you with information amd get to know the farmer gatherings that are next to you in the coming weeks.",
+      "Engage with fellow farmers to enrich your knowledge and discover upcoming farmer gatherings in your area.",
   },
 ];
 

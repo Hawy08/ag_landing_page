@@ -6,26 +6,25 @@ import background2 from "../assets/close-up-fresh-green-plant-against-sky_104894
 const BlogsFeaturesCard = () => {
   const menuItem = [
     {
-      text: "Accesibility",
-      subtitle: "Get to hear from Fellow growers",
+      text: "Reliability",
+      subtitle: "You can always bank on us",
       image: background,
-      description:
-        "Getting to hear from other farmers help to enrich you with information amd get to know the farmer gatherings that are next to you in the coming weeks.",
+      description: "We got you covered with up-todate information on the field of agriculture.",
     },
     {
-      text: "Availability",
-      subtitle: "Get to hear from Fellow growers",
+      text: "Accuracy",
+      subtitle: "Information that is on point",
       image: background1,
       description:
-        "Getting to hear from other farmers help to enrich you with information amd get to know the farmer gatherings that are next to you in the coming weeks.",
+        "Whatever you consume from agroghala is never wrong.",
     },
 
     {
       text: "Productivity",
-      subtitle: "Get to hear from Fellow growers",
+      subtitle: "The best of knowledge is with us",
       image: background2,
       description:
-        "Getting to hear from other farmers help to enrich you with information amd get to know the farmer gatherings that are next to you in the coming weeks.",
+        "We have the information you need to get the best from your activity.",
     },
   ];
 
@@ -33,7 +32,7 @@ const BlogsFeaturesCard = () => {
     <div className="max-w-[1640px] mx-auto  py-12 grid md:grid-cols-3 gap-6  mb-12 ">
       {/* Card */}
 
-      {menuItem.map(({ text, subtitle, image }, index) => {
+      {menuItem.map(({ text, subtitle, image, description }, index) => {
         return (
           <div
             key={index}
@@ -46,8 +45,8 @@ const BlogsFeaturesCard = () => {
               </p>
               <p className="w-2/3 px-2 mt-8 font-semibold">{subtitle}</p>
               <p className="w-2/3 px-2 my-4 text-sm">
-                Getting to hear from other farmers help to enrich you with
-                information amd get to know.
+               
+               {description}
               </p>
               <button className="w-2/3 px-5 py-1 mx-2 text-green-500 duration-500 bg-white border-white border-none rounded-sm hover:border-green-500 hover:border-4 hover:text-white hover:bg-transparent">
                 Take a Look
