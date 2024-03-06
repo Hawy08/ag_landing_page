@@ -6,23 +6,23 @@ import Copyright from '../Semicomponents/Copyright';
 function Footer() {
   return (
     <Element name="section5">
-      <div className="w-full mt-4 bg-[#EDEADE] p-8 py-20">
+      <div className="w-full mt-4 bg-[#EDEADE] p-8 md:py-20">
         <div className="flex justify-center">
-          <div className="grid w-4/5 grid-cols-4">
-            <div className="flex flex-col gap-4 text-gray-500">
+          <div className="grid-cols-4 md:w-4/5 md:grid">
+            <div className="flex flex-col gap-4 mb-4 text-gray-500">
               <p className="text-lg font-semibold">About Us</p>
               <p>DuniAfrika</p>
               <p>Team</p>
               <p>Contact Us</p>
             </div>
-            <div className="flex flex-col gap-4 text-gray-500">
+            <div className="flex flex-col gap-4 mb-4 text-gray-500">
               <p className="text-lg font-semibold">Check Out</p>
               <p>Home</p>
               <p>Opportunities</p>
               <p>Features</p>
               <p>Testimonials</p>
             </div>
-            <div className="flex flex-col gap-4 text-gray-500 ">
+            <div className="flex flex-col gap-4 mb-4 text-gray-500">
               <p className="text-lg font-semibold">Socials</p>
               <p>Facebook</p>
               <a

@@ -2,9 +2,13 @@ import logo from "../assets/Frame.png";
 import { Link } from "react-scroll";
 
 
+
 function Header() {
+
+  
   return (
-    <div className="flex items-center justify-between py-6">
+    <div className="flex items-center justify-between py-6 mb-12" >
+       
       <div className="w-1/4 ">
         <img src={logo} alt="logo" />
       </div>

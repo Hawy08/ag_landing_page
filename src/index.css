@@ -2,57 +2,59 @@
 @tailwind components;
 @tailwind utilities;
 
-
 body {
-    font-family: Poppins, sans-serif !important;
+  font-family: Poppins, sans-serif !important;
 }
 
-.c-path{
-   /* clip-path: circle(78.5% at 88% 23%); */
-   /* clip-path: circle(44.1% at 53% 50%); */
-   /* clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%); */
-   clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+.c-path {
+  /* clip-path: circle(78.5% at 88% 23%); */
+  /* clip-path: circle(44.1% at 53% 50%); */
+  /* clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%); */
+  clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
 }
 
-.bg{
-    background-image: url(./assets/planting-corn_58409-3141.jpg);
-    background-repeat: no-repeat;
-    background-size: cover; 
+.bg {
+  background-image: url(./assets/planting-corn_58409-3141.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 /* 
 .bg:hover{
 
 } */
 
- 
-	.at-item {
-		animation-name: shutter-in-bottom;
-		animation-duration: 1s;
-		animation-timing-function: linear;
-		animation-delay: 0s;
-		animation-iteration-count: 1;
-		animation-direction: normal;
-		animation-fill-mode: none;
-			
-		/* shorthand
-		animation: shutter-in-bottom 1s linear 0s 1 normal none;*/
-	}
-	@keyframes shutter-in-bottom {
-			
-		0% {
-			transform:rotateX(100deg);
-			transform-origin:bottom;
-			opacity:0;
-		}
-		100% {
-			transform:rotateX(0);
-			transform-origin:bottom;
-			opacity:1;
-		}
-	}
- 
+.at-item {
+  animation-name: shutter-in-bottom;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: none;
 
-	.linear_g{
-		background: rgb(26,26,26);
-		background: linear-gradient(228deg, rgba(26,26,26,0.25271358543417366) 6%, rgba(0,0,0,0.9810049019607843) 100%);
-	}
+  /* shorthand
+		animation: shutter-in-bottom 1s linear 0s 1 normal none;*/
+}
+@keyframes shutter-in-bottom {
+  0% {
+    transform: rotateX(100deg);
+    transform-origin: bottom;
+    opacity: 0;
+  }
+  100% {
+    transform: rotateX(0);
+    transform-origin: bottom;
+    opacity: 1;
+  }
+}
+
+.linear_g {
+  background: rgb(26, 26, 26);
+  background: linear-gradient(
+    228deg,
+    rgba(26, 26, 26, 0.25271358543417366) 6%,
+    rgba(0, 0, 0, 0.9810049019607843) 100%
+  );
+}
+
+ 
